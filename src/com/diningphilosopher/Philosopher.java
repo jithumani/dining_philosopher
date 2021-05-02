@@ -39,7 +39,7 @@ public class Philosopher implements Runnable {
 					}
 
 					// Back to thinking
-					doAction(": Put down left fork. Back to thinking");
+					doAction(": Put down left fork. Back to thinking ");
 				}
 			}
 		} catch (InterruptedException e) {
