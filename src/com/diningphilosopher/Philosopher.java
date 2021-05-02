@@ -30,7 +30,7 @@ public class Philosopher implements Runnable {
 				// thinking
 				doAction(": Thinking");
 				synchronized (leftFork) {
-					doAction(": Picked up left fork");
+					doAction(": Picked up left fork ");
 					synchronized (rightFork) {
 						// eating
 						doAction(": Picked up right fork - eating");
