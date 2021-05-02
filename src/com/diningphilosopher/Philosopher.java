@@ -35,7 +35,7 @@ public class Philosopher implements Runnable {
 						// eating
 						doAction(": Picked up right fork - eating");
 
-						doAction(": Put down right fork");
+						doAction(": Put down right fork ");
 					}
 
 					// Back to thinking
