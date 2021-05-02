@@ -28,7 +28,7 @@ public class Philosopher implements Runnable {
 			while (true) {
 
 				// thinking
-				doAction(": Thinking");
+				doAction(": Thinking ");
 				synchronized (leftFork) {
 					doAction(": Picked up left fork ");
 					synchronized (rightFork) {
